@@ -2,12 +2,13 @@
 
 统计各行业，各公司工作时间与工作条件。
 
-原始数据来源：https://github.com/WorkerLivesMatter/WorkingTime，向发起人致敬。
+原始数据来源：[WorkerLivesMatter/WorkingTime](https://github.com/WorkerLivesMatter/WorkingTime)  ，向发起人致敬。
 
-经过少量处理，整理为供PostgreSQL直接可以使用的数据表。
+> 注：本人非该项目成员，Fork只为学习参考使用，不对数据来源与准确性负责，请用户自行判断。
 
-Public Demo: http://demo.pigsty.cc/d/worktime-query
+本数据经过少量处理，整理为供PostgreSQL直接可以使用的数据表。
 
+Public Demo:   http://demo.pigsty.cc/d/worktime-query
 
 
 ## 如何使用?
@@ -84,3 +85,4 @@ COMMENT ON COLUMN worktime.worktime.welfare IS '是否有其他福利（如：�
 COMMENT ON COLUMN worktime.worktime.is_foreign IS '是否为外资企业？';
 COMMENT ON COLUMN worktime.worktime.domain IS '大分类：互联网、金融、外企、其他';
 ```
+
